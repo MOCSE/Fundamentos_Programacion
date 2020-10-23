@@ -49,37 +49,51 @@ main()
 			
 		//Ejemplo de Incremento
 	printf("-------------------\n");
-	printf("Ejemplo de Incremento\n");
-	
 		int x2 = 3;
 		printf("x2 = %d \n",x2);
 		x2++;
 		printf("x2 (++) = %d \n",x2);
 	
-		//Ejemplo de Pre-Incremento
 	printf("-------------------\n");
-	printf("Ejemplo de Pre-Incremento\n");
-		
+	
+		//Ejemplo de Pre-Incremento
 		int x,y;
 		x=3; y=x;
 		printf("x=%d	y=%d\n",x,y);
 		x=++y;
 		printf("x=%d	y=%d\n",x,y);
 	
+	printf("-------------------n");
+		
 	//Operador Ternario
 		// ? : | op1?op2:op3
 			//Si es verdadero el resultado es el op2
 			//Si es falso se el resultado es el op3
 
 			//Ejemplo Operador Ternario
-			printf("-------------------\n");
-			printf("Operador Ternario\n");
-			
 			int z2;
 			z2=(2==3)?10:20;
 			printf("z2 = %d",z2);
+			
+	//Operadores Compuestos
+		// = += * =
+			
+			
+			
+	/*
+	Tabla de procedencia de operadores
+	
+		()
+	!	++	--
+	*	/	%
+	  +   -
+	<>	>=	<=
+	  ==  !=
+	    &&
+	    ||
+	    ?:
+	=	+=	*=
+	*/
 	
 	
 }
-
-
