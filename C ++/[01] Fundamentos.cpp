@@ -18,8 +18,9 @@ int main(){
 		
 		//Imprimir y concatenar
 		cout<<"Entero: "<< entero << "| Flotante: " << flotante << "| Doble: " << doble << "| Char: " << cara <<endl;
+
 	
-	return 0; //Buenas practicas de programación, YEIIIIII
+	return 0; //Buenas practicas de programaciï¿½n, YEIIIIII
 }
 
 

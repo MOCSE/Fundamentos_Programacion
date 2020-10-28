@@ -7,7 +7,7 @@ int main(){
 	cout.precision(3); //Numeros a mostrar en pantalla
 	
 	
-	//1. Escribe la siguiente función como expresión en C++ (a/b)+1
+	//1. Escribe la siguiente funcion como expresion en C++ (a/b)+1
 	cout<<"Programa 1"<<endl;
 	
 	float A,B,C;
@@ -19,15 +19,16 @@ int main(){
 	
 	cout <<"Tu resultado Es: " <<C<<endl<<endl;
 	
-		
-		
 		system("pause"); //Presione una tecla para continuar
 		system("cls"); //Limpia la consola
 		
-		
-		
-		
-	//2. Escribe la siguiente función como expresión en C++ f(x,y) = Raiz(x) / y^2-1
+
+
+
+
+
+
+	//2. Escribe la siguiente funcion como expresion en C++ f(x,y) = Raiz(x) / y^2-1
 	cout<<"Programa 2"<<endl;
 	
 	float x,y,z;
