@@ -65,10 +65,12 @@ int main(){
 		/*
 		Código de formato
 		%d  Tipo entero (int)
+		%f  Tipo florante (flotante)
 		%ld Tipo entero largo (long)
 		%lf Tipo decimal doble precisión (double)
 		%c  Tipo carácter
 		%s  Tipo cadena alfanumérica (array de caracteres)
+		%p  Punteros (Apuntadores)
 		*/
 	return 0;
 }
