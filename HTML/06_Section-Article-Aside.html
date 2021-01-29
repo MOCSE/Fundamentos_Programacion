@@ -1,0 +1,54 @@
+<!-- Etiquetas de seccion de contenido 2-->
+<!-- Verificar Validación de HTML en: https://validator.w3.org -->
+
+<!--
+    <section> representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema.
+
+    <article> representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable, por ejemplo, en la indicación
+    
+    <aside>   se utiliza para representar contenido relacionado pero que no forma parte del contenido principal
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1>NOTICIAS NACIONALES</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Noticias Del Día</h2>
+            <!-- Los article son contenido independiente y se les permite ponerles header y footer -->
+                <article> <!-- Articulo valido -->
+                    <header>
+                        <h3>Noticia 1</h3>
+                    </header>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quidem sunt unde numquam, repellat incidunt accusantium distinctio repudiandae aut. Sed provident harum quia ducimus iste obcaecati ex in, magnam rerum?</p>
+                    <footer>La noticia ocurrió en Madrid</footer>
+                </article>
+
+                <article> <!-- Articulo valido -->
+                    <h3>Noticia 2</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quidem sunt unde numquam, repellat incidunt accusantium distinctio repudiandae aut. Sed provident harum quia ducimus iste obcaecati ex in, magnam rerum?</p>
+                </article>
+
+                <article>
+                    <h3>Noticia 3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quidem sunt unde numquam, repellat incidunt accusantium distinctio repudiandae aut. Sed provident harum quia ducimus iste obcaecati ex in, magnam rerum?</p>
+                </article>
+        </section>
+    </main>
+    
+        <aside>Visita mi canal de noticias del dia a dia</aside> <!-- aside valido dentro y fuera del main-->
+    <footer>
+        28-ENE-2021
+    </footer>
+
+</body>
+</html>
