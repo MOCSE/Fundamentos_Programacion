@@ -1,0 +1,46 @@
+<!-- Valores adicionales que configuran los elementos y/o ajustan su comportamiento
+
+    comunes:    atributo="valor"
+    booleano:   atributo
+
+-->
+
+<!-- Atributos más usados:
+
+    class   -> Este atributo se usa para dar estilos a través de CSS
+
+    id      -> Este etributo es un identificado único que se utiliza para seleccionar el elemento desde JS y para hacer navegación a través de anclas
+
+    title   -> Este es un atributo que ayuda a la accesibilidad mostrando una descripción del elemento al que pertenece. Aparece un mensaje en un tooltip
+
+    data-*  -> Este es un atributo que nos permite guardar algín valor en la etiqueta HTML
+ -->
+
+<!DOCTYPE html>
+<html lang="es"> <!-- Atributo lang para configurar el idioma del documento -->
+<head>
+    <meta charset="UTF-8"> <!-- Atributo charset para declarar configuracion de caracteres de la pagina en este caso latinoamericano -->
+    <title>Document</title>
+
+    <style> /* CSS */
+        .parrafo1{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="parrafo1">Clases</p>
+    <p id="parrafo">Identificador a través de un ID</p>
+    <p title="Este es un ejemplo del atributo title">Titulo con tooltip</p> 
+    <p id="parrafo-2" data-ejemplo="Datos de ejemplo">Datos pasados en la etiqueta</p>
+
+    <!-- JS -->
+    <script>
+        const p = document.getElementById("parrafo")
+        const parrafo2 = document.getElementById("parrafo-2")
+
+        console.log(p.textContent)
+        console.log(parrafo2.dataset.ejemplo)
+    </script>
+</body>
+</html>

@@ -19,6 +19,21 @@ int main(){
 		//Imprimir y concatenar
 		cout<<"Entero: "<< entero << "| Flotante: " << flotante << "| Doble: " << doble << "| Char: " << cara <<endl;
 
+		int i,j,k,n=3,c=1;
+
+		for (i = 0; i <= n; i++)
+			for (j = i; j <= n; j++)
+				for (k = j; k <= n; k++)
+		{
+			cout<< "c:" << c << " - ";
+			cout << i << "--"; cout << j << "--"; cout << k << endl;
+			c++;
+		}
+
+		
+		
+
+
 	
 	return 0; //Buenas practicas de programaci�n, YEIIIIII
 }
