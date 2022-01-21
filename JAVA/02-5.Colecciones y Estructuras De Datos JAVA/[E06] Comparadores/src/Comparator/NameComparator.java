@@ -9,7 +9,5 @@ public class NameComparator implements Comparator<Student>{
     public int compare(Student std1, Student std2) {
         return std1.getName().compareTo(std2.getName());
     }
-    
-    
-    
+ 
 }
