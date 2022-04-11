@@ -1,0 +1,5 @@
+test\TestManejoPersonas.class
+domain\PersonaDTO.class
+BaseDatos\Conexion.class
+BaseDatos\PersonaDaoJDBC.class
+BaseDatos\PersonaDAO.class
