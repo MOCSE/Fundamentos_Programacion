@@ -1,9 +1,7 @@
 //Lenguaje C++
 
-
 #include <iostream> //Libreria de entrada y salida de datos <3
-
-using namespace std; //Estandar de c++ | Flujos de entrada y salida fast
+using namespace std; //Estandar de c++ | Flujos de entrada y salida
 
 
 int main(){
