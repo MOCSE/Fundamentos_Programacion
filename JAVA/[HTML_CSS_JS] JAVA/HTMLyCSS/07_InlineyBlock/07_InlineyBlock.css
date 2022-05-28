@@ -1,0 +1,14 @@
+h1{
+    color: salmon;
+    text-align: center;
+}
+
+h2{
+    color: purple;
+}
+
+div{
+    border: 3px solid black;
+    margin: 15px;
+    text-align: center;
+}

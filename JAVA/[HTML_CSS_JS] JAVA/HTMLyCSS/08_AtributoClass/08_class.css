@@ -1,0 +1,26 @@
+h1{
+    color: salmon;
+    text-align: center;
+}
+
+h2{
+    color: purple;
+}
+
+div{
+    margin: 15px;
+}
+
+/*CLASE DE CSS*/
+.tarjeta{
+    border: 10px solid black;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.carta{
+    border: 30px solid red;
+    background-color: greenyellow;
+    text-align: left;
+}
+

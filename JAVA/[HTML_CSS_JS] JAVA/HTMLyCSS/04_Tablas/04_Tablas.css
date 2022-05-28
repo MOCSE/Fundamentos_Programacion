@@ -1,0 +1,38 @@
+table, th, td{
+    border: 1px solid black;
+    padding: 5px;
+
+    /* Colapsar tablas (quitarle lo feo) */
+    border-collapse: collapse;
+    
+    /* borde sin colapso
+    border-spacing: 5px; */
+    
+    
+}
+
+/* Ocupar todo el ancho de la tabla */
+table{
+    width: 100%;
+}
+
+caption{
+    color: blue;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+th{
+    color: azure;
+    background-color: rgb(4, 15, 53);
+}
+
+/* Filas pares (even) | impares (odd)*/
+tr:nth-child(odd){
+    background-color: pink;
+}
+
+td{
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+h1{
+    color: black;
+}
+
+/* Cuando todavia no se ha dado click al link*/
+a:link{
+    color: purple;
+    text-decoration: none;
+}
+
+/* Cuando ya se visito el link */
+a:visited{
+    color: red;
+    text-decoration: none;
+}
+
+/* Encima del link */
+a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+/* Al dar click */
+a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+
+/* BOTONES */
+#boton:link,#boton:visited{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#boton:hover,#boton:active{
+    background-color: pink;
+}

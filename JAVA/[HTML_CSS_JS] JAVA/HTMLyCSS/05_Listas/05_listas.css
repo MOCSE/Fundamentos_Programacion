@@ -1,0 +1,17 @@
+ol{
+   counter-reset: contador; 
+}
+ol li{
+    counter-increment: contador;
+}
+
+
+ol li::before{
+    content: "->";
+    color:green;
+}
+
+ol li::after{
+    content: "  |" counter(contador);
+    color: orangered;
+}
