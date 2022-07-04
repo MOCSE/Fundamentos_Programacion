@@ -1,20 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package parejasenteros;
 
-/**
- *
- * @author Sammy Guergachi <sguergachi at gmail.com>
- */
 public class ParejasEnteros {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        double number;
+        for (int a = 1; a <= 500; a++) {
+            for (int b = a+1; b <= 500; b++) {
+                number = (Math.pow(a, 2) + Math.pow(b, 2) + 1) / (a*b);
+                
+                if(number - (int)number == 0){
+                    System.out.println("(" + a + "," + b + ") = " + number);
+                }
+            }
+        }   
     }
-    
 }
