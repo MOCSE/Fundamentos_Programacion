@@ -1,17 +1,17 @@
 package tests;
 
+import java.util.Scanner;
+
 public class Tests {
 
     public static void main(String[] args) {
-        Persona per1 = null;
-        Persona per2 = new Persona("Oscar", 20, "Tauro");
-        
-        
-        System.out.println(per1 == per2);
-        System.out.println(per1 != per2);
-        System.out.println(per1.equals(per2));
-        
-        System.out.println(per1);
+        System.out.println("Texto: ");
+        Scanner in = new Scanner(System.in);
+
+        String line = in.nextLine();
+        int longi = line.length();
+        int sum = 0;
+
     }
-    
+
 }

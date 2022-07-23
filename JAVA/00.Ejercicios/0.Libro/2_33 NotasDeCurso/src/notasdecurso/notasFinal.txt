@@ -1,0 +1,10 @@
+Romero Oscar 14.0 7.5 55.0 C
+Ramirez Erick 10.0 12.5 27.5 F
+Chacon Estefy 20.0 25.0 49.5 A
+Sanchez Yair 14.0 5.0 55.0 C
+Valentin Emmanuel 20.0 20.0 49.5 B
+Romero Daniel 4.0 7.5 55.0 D
+Diaz Erick 14.0 20.0 49.5 B
+Perez Diego 20.0 25.0 55.0 A
+Hernandez Jose 14.0 17.5 55.0 B
+Ponce Miguel 12.0 15.0 33.0 D
