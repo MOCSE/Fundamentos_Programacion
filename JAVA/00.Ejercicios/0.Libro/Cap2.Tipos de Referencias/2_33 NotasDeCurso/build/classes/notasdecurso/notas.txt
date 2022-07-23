@@ -1,0 +1,10 @@
+Romero:Oscar:7:3:10
+Ramirez:Erick:5:5:5
+Chacon:Estefy:10:10:9
+Sanchez:Yair:7:2:10
+Valentin:Emmanuel:10:8:9
+Romero:Daniel:2:3:10
+Diaz:Erick:7:8:9
+Perez:Diego:10:10:10
+Hernandez:Jose:7:7:10
+Ponce:Miguel:6:6:6
