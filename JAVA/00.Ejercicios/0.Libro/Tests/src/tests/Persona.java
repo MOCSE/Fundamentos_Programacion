@@ -3,17 +3,27 @@ package tests;
 
 import java.util.Objects;
 
+
 public class Persona {
+    
+    
     private String nombre;
     private int edad;
     private String zodiaco;
+    private static int contador = 0;
+    
 
     public Persona(String nombre, int edad, String zodiaco) {
         this.nombre = nombre;
         this.edad = edad;
         this.zodiaco = zodiaco;
+        this.contador++;
     }
-
+    
+    /**
+     * Obtener Nombre Test xd
+     * @return 
+     */
     public String getNombre() {
         return nombre;
     }
@@ -40,7 +50,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "persona{" + "nombre=" + nombre + ", edad=" + edad + ", zodiaco=" + zodiaco + '}';
+        return "persona{" + "nombre=" + nombre + ", edad=" + edad + ", zodiaco=" + zodiaco + '}' + "| Conteo: " + contador;
     }
 
     @Override

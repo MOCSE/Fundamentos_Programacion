@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class Tests {
 
     public static void main(String[] args) {
-        System.out.println("Texto: ");
-        Scanner in = new Scanner(System.in);
-
-        String line = in.nextLine();
-        int longi = line.length();
-        int sum = 0;
-
+        Persona p1 = new Persona("Oscar", 20, "tauro");
+        System.out.println(p1);
+        
+        Persona p2 = new Persona("David", 20, "tauro");
+        
+        System.out.println(p2);
     }
 
 }
