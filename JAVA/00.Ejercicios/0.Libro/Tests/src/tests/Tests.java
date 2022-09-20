@@ -1,16 +1,26 @@
 package tests;
 
-import java.util.Scanner;
+import java.math.BigDecimal;
+
+
 
 public class Tests {
 
     public static void main(String[] args) {
-        Persona p1 = new Persona("Oscar", 20, "tauro");
-        System.out.println(p1);
+        double number = 0.1;
         
-        Persona p2 = new Persona("David", 20, "tauro");
+        for (int i = 0; i < 10; i++) {
+            number += 0.1;
+            System.out.println(i + " | " + number);
+        }
         
-        System.out.println(p2);
+        System.out.println("//////////");
+        
+        BigDecimal number2 = new BigDecimal(0.1);
+        
+
+        number2.add(number2).add(number2).add(number2);
+        System.out.println(number2);
     }
 
 }
