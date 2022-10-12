@@ -2,6 +2,6 @@ package LambdaConParametros;
 
 public interface Operaciones {
     
-    public void imprimeSuma(int num, int num2);
+    public void imprimeOperacion(int num, int num2);
     
 }

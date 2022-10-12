@@ -13,7 +13,7 @@ public class TestAritmetica {
         // try-catch || Intentar recuperar de algun error/Excepcion para que el programa no termine de manera abrubta
         try {
            resultado = division(10, 0);
-        } catch (Exception e) {
+        } catch (OperacionExcepcion e) {
             System.out.println("Ocurrio Un ERROR");
             e.printStackTrace(System.out); //Imprimir pila de excepciones
             System.out.println(e.getMessage()); //Mandar a imprimir el mensaje de manera individual
