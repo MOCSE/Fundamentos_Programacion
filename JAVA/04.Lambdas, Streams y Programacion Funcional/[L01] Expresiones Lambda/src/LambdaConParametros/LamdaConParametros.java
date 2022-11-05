@@ -6,7 +6,7 @@ public class LamdaConParametros {
         
         //Referencia del metodo abstracto de la interface
         Operaciones op = (num, num2) -> System.out.println(num+num2);
-        op.imprimeSuma(15, 30);
+        op.imprimeOperacion(15, 30);
         
         //Comunmente las lambdas se manejan con metodos
         LamdaConParametros objeto = new LamdaConParametros();
@@ -18,6 +18,6 @@ public class LamdaConParametros {
     }
     
     public void miMetodo(Operaciones op, int num, int num2){
-        op.imprimeSuma(num, num2);
+        op.imprimeOperacion(num, num2);
     }
 }
