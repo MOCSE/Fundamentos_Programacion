@@ -27,6 +27,7 @@ public class Listas03_ListaDeListas {
         mostrarMes(mes, dias);
         calcularMedia(mes, dias);
         diasMasCalurosos(mes, dias);
+
     }
     
     public static void rellenarDias(String[] dias) {

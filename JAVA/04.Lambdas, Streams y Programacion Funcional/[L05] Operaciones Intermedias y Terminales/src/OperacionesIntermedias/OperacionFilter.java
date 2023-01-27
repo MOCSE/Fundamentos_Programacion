@@ -4,7 +4,7 @@ import Clases.Empleado;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class OperacionFilter {
+public class OperacionFilter{
 
     public static void main(String[] args) {
         //Produce un stream que contiene solo elementos que satisfacen una condicion
