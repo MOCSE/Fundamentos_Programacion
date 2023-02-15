@@ -1,0 +1,75 @@
+.contenedor-anuncios , .contenedor-anuncios2{
+    @include tablet{
+        @include grid(3,2rem)
+    }
+}
+
+.anuncio {
+    background-color: lighten($gris, 5);
+    border: 1px solid darken($gris, 10);
+    margin-bottom: 2rem;
+
+    .contenido-anuncio {
+        padding: 2rem;
+    }
+
+    h3, p {
+        margin: 0;
+    }
+ 
+}
+
+.precio {
+    color: $verde;
+    font-weight: $bold;
+    font-size: 3rem;
+}
+
+
+.iconos-caracteristicas {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    max-width: 40rem;
+    li {
+        flex: 1;
+        display: flex;
+        img {
+            flex: 0 0 3rem;  // Aquí se define el tamaño del icono
+            margin-right: 1.5rem;
+            @include tablet{
+                margin-right: 0.2rem;
+            }
+            @include desktop{
+                margin-right: 1.5rem;
+            }
+        }
+        p {
+            font-weight: $black;
+        }
+    }
+}
+
+@include telefono {
+    .contenedor-anuncios ,.contenedor-anuncios2{
+        @include grid(1, 2rem);
+    }
+}
+ 
+@include tablet {
+    .contenedor-anuncios {
+        @include grid(2, 2rem);
+    }
+}
+
+@include tablet {
+    .contenedor-anuncios2{
+        @include grid(1, 2rem);
+    }
+} 
+
+@include desktop {
+    .contenedor-anuncios ,.contenedor-anuncios2{
+        @include grid(3, 2rem);
+    }
+}
